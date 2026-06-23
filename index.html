@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reasons Why</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    test
+
+  <div class="heart-bg" id="heart-bg"></div>
+
+  <div class="header">Reasons to Be My GF</div>
+  
+  <div class="container">
+    <img class="img-display" id="main-img" src="img/halluuu.webp" alt="Icon">
+    
+    <div class="reason" id="reason">Reasons why you should be my Girlfriend</div>
+    
+    <div class="navigation" id="nav-controls" style="display: none;">
+      <button class="nav-button" onclick="previousReason()">Back</button>
+      <button class="nav-button" onclick="nextReason()">Next</button>
+    </div>
+    
+    <button id="special-button" class="special-button" style="display: block;" onclick="handleAction()">Let's go</button>
+  </div>
+
+  <script src="scripts.js"></script>
 </body>
 </html>

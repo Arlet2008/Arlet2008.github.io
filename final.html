@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Most Important Question</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="heart-bg" id="heart-bg"></div>
+
+  <div class="container" id="question-box">
+    <img class="img-display" id="final-img" src="img/thinker.webp" alt="Question">
+    <div class="reason" id="final-text">Will you be my girlfriend?</div>
+    
+    <div class="navigation" id="button-group">
+      <button class="nav-button" id="yes-btn" onclick="sayYes()">Yes!</button>
+      <button class="nav-button" id="no-btn" onmouseover="teleportButton(event)" ontouchstart="teleportButton(event)" onclick="teleportButton(event)">No</button>
+    </div>
+
+    <div id="love-message" class="reason" style="display: none; margin-top: 15px; color: #ff7597; font-size: 24px;">💖 love youuuu Arlet hehe 🧸✨</div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
